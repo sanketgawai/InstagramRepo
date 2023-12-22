@@ -29,6 +29,7 @@ public class Testt {
 	@BeforeTest
 	public void openBrowser()
 	{
+		System.out.println("kaido");
 		System.setProperty("webdriver.chrome.driver","E:\\software testing\\selenium\\new browser chromium chrome driver\\chromedriver-win64\\chromedriver.exe");
 		ChromeOptions co = new ChromeOptions();
 		co.setBinary("E:\\software testing\\selenium\\new browser for testing chromium\\chrome-win64\\chrome.exe");
